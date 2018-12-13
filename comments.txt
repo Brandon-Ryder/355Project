@@ -1,0 +1,49 @@
+Building Simulate...
+    make
+Running Simulate...
+    ./output /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//simulator/bigDFA.txt /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//simulator/bigDFA-strings.txt
+    ./output /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//simulator/biggerDFA.txt /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//simulator/biggerDFA-strings.txt
+    ./output /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//simulator/handoutDFA.txt /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//simulator/handoutDFA-strings.txt
+    ./output /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//simulator/randomDFA1.txt /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//simulator/randomDFA1-strings.txt
+    ./output /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//simulator/randomDFA2.txt /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//simulator/randomDFA2-strings.txt
+    ./output /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//simulator/randomDFA3.txt /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//simulator/randomDFA3-strings.txt
+    ./output /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//simulator/randomDFA4.txt /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//simulator/randomDFA4-strings.txt
+    ./output /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//simulator/randomDFA5.txt /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//simulator/randomDFA5-strings.txt
+  Run succeeded, comparing output...
+  No errors encountered
+Building Boolop...
+    make
+Running Boolop...
+    ./int_output /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//boolop/randomHexDFA.txt
+    ./int_output /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//boolop/handoutDFA.txt
+    ./int_output /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//boolop/bigDFA.txt
+    ./int_output /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//boolop/bigDFA-comp.txt
+    ./int_output /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//boolop/smallDFA.txt /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//boolop/smallDFA2.txt
+    ./int_output /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//boolop/smallerDFA.txt /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//boolop/handoutDFA.txt
+    ./int_output /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//boolop/handoutDFA.txt /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//boolop/smallerDFA.txt
+    ./int_output /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//boolop/searchDFA1.txt /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//boolop/searchDFA2.txt
+    ./int_output /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//boolop/searchDFA2.txt /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//boolop/searchDFA1.txt
+    ./int_output /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//boolop/bigDFA.txt /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//boolop/randomHexDFA.txt
+    ./int_output /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//boolop/bigDFA.txt /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//boolop/bigDFA-comp.txt
+    ./int_output /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//boolop/bigDFA-comp.txt /home/brandon/Desktop/FinalProject_BrandonRyder/test-cases//boolop/randomHexDFA.txt
+  Run succeeded, comparing output...
+  No errors encountered
+-----------------------------------------------------
+Simulate: execution always completed without errors.
+progress level 5 with 0 execution errors
+
+Minimize: not implemented -- minimizer.txt does not exist
+progress level 0 with 0 execution errors
+
+Searcher: not implemented -- searcher.txt does not exist
+progress level 0 with 0 execution errors
+
+Boolop: execution always completed without errors.
+progress level 5 with 0 execution errors
+
+Invhom: not implemented -- invhom.txt does not exist
+progress level 0 with 0 execution errors
+
+Properties: not implemented -- properties.txt does not exist
+progress level 0 with 0 execution errors
+

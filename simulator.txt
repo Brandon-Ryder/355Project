@@ -1,0 +1,4 @@
+Build:
+	make
+Run:
+	./output

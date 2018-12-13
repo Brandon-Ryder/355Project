@@ -1,0 +1,12 @@
+
+output: main.o intersection.o
+	g++ main.o intersection.o -o int_output
+
+main.o: main.cpp
+	g++ -c main.cpp
+
+intersection.o: intersection.cpp intersection.h
+	g++ -c intersection.cpp intersection.h
+
+clean:
+	rm *.o int_output

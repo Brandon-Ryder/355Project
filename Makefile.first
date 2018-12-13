@@ -1,0 +1,13 @@
+
+output: main1.o simDFA.o
+	g++ main1.o simDFA.o -o output
+
+main.o: main1.cpp
+	g++ -c main1.cpp
+
+simDFA.o: simDFA.cpp simDFA.h
+	g++ -c simDFA.cpp simDFA.h
+
+clean:
+	rm *.o output
+
